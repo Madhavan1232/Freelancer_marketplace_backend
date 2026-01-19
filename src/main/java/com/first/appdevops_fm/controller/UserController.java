@@ -46,4 +46,8 @@ public class UserController {
         return userService.getUserByEmail(email);
     }
 
+    @GetMapping
+    public List<User> getAllUsers() {
+        return userService.getAllUsers();
+    }
 }

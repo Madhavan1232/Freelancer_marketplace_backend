@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/client-profiles")
+    @RequestMapping("/client-profiles")
 public class ClientProfileController {
 
     @Autowired
