@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/projects")
+@RequestMapping("/projects-tables")
 @CrossOrigin(origins = "*")
 public class ProjectTableController {
 
