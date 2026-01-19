@@ -26,6 +26,10 @@ public class Application {
     @Column(nullable = false)
     private String proposalMessage;
 
+    public void setProposalMessage(String proposalMessage) {
+        this.proposalMessage = proposalMessage;
+    }
+
     @CreationTimestamp
     private LocalDateTime createdAt;
 

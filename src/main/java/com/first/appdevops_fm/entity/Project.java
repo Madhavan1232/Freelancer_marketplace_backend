@@ -16,6 +16,10 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    public Long getId() {
+        return id;
+    }
+
     @ManyToOne
     @JoinColumn(name = "client_id")
     private User client;
